@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sheum</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link href="assets/stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="assets/stylesheets/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/stylesheets/simple-line-icons.css">
+    <link rel="stylesheet" href="assets/stylesheets/device-mockups.min.css">
+
+    <!-- Theme CSS -->
+    <link href="assets/stylesheets/new-age.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
